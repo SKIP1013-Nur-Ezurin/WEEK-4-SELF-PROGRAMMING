@@ -1,0 +1,25 @@
+package selfProgramming;
+import java.util.Scanner;
+
+public class MultiplicationTable {
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//* Write a Java PROGRAM THAT TAKES NUMBER AS INPUT AND PRINTS ITS MULTIPLICATION TABLE UPTO 10
+		
+		Scanner in = new Scanner(System.in);
+		
+		System.out.print("Input a number:");
+		int num1 = in.nextInt();
+		
+		for (int i=0; i<10; i++) {
+		System.out.println(num1 + " x " + (i + 1) + "=" + 
+		( num1 * (i+1)));
+		
+		}
+
+	}
+
+}
